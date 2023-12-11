@@ -37,7 +37,9 @@ button{
     grid-template-columns: 5% 90% 5%;
     background-color: #7ed6df;
 }
-
+.complete{
+    color:#27ae60
+}
 .todo.complete .text{
     text-decoration-line: line-through
 }
@@ -52,3 +54,13 @@ i:active{font-size: 0.5em}
 
 .fa-trash{color: #e74c3c}
 .fa-check-circle{color: #27ae60}
+.uncomplete{color:rgb(216, 206, 206)}
+.low{
+    background-color: rgb(142, 224, 142);
+}
+.high{
+    background-color: #b08782;
+}
+.mid{
+    background-color: rgb(232, 172, 62);
+}
